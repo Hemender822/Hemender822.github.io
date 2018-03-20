@@ -1,19 +1,16 @@
 # Site settings
-title: Exorust
-description: A portfolio of Chandrahas' Work
+title: Naren
+description: A portfolio of Naren's Work
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Chandrahas Aroori
-user_description: I am a student pursuing his undergraduate in Computer Science in Bits Pilani Hyderabad Campus.
+username: Naren Surampudi
+user_description: I am a student pursuing his undergraduate in Electronics and Communications in Bits Pilani Hyderabad Campus.
 user_title: Software Developer
-email: chandrahas.aroori@gmail.com
-#twitter_username: lorem_ipsum
-github_username:  Exorust
-gplus_username:  lorem_ipsum
-stackoverflow: 7086962/chandrahas-aroori
-linkedin: chandrahas-aroori-409b44148/
+email: nsurampu@gmail.com
+github_username:  nsurampu
+linkedin: naren-surampudi/
 
 
 # Google-analytics
