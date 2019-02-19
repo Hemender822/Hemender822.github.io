@@ -11,9 +11,22 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #ffffff; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #ffffff;}
+html, body {background: #393f4d; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #000000;}
 
 .clear {clear: both;}
+
+.col-container {
+		display: flex;
+  	width: 100%;
+}
+
+.col-left {
+    flex: 1;
+}
+
+.col-right {
+	flex: 3;
+}
 
 p {
 	font-size: 1em;
@@ -22,29 +35,48 @@ p {
 	color: #000000;
 }
 
-#cv {
+#cv_left {
 	width: 100%;
+	height: 2865px;
+	background: #393f4d;
+	margin: 0px auto;
+	float: left;
+}
+
+#cv_right {
+	width: 100%;
+	height: 100%;
 	background: #ffffff;
 	margin: 0px auto;
+	float: right;
+	top: -100px
+}
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -50px;
 }
 
 .mainDetails {
 	padding: 25px 35px;
-	border-bottom: 0px solid #cf8a05;
-	background: #404040;
+	border-bottom: 5px solid #393f4d;
+	background: #393f4d;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
 
 #name h1 {
 	font-size: 2.5em;
 	font-weight: 700;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif; color: #ffffff;
 	margin-bottom: -6px;
 }
 
 #name h2 {
 	font-size: 2em;
 	margin-left: 2px;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif; color: #ffffff
 }
 
 #mainArea {
@@ -52,9 +84,10 @@ p {
 }
 
 #headshot {
-	width: 12.5%;
-	float: left;
-	margin-right: 30px;
+	width: 50%;
+	float: right;
+	margin-right: 100px;
+	margin-top: 100px;
 }
 
 #headshot img {
@@ -65,17 +98,17 @@ p {
 }
 
 #name {
-	float: left;
+	float: center;
 }
 
 #contactDetails {
-	float: right;
+	float: left;
 }
 
 #contactDetails ul {
 	list-style-type: none;
 	font-size: 0.9em;
-	margin-top: 2px;
+	margin-top: 100px;
 }
 
 #contactDetails ul li {
@@ -97,6 +130,20 @@ p {
 	color: #32cd32;
 }
 
+#profile {
+	float: left;
+	font-size: 1.2em;
+	margin-top: 50px;
+	margin-left: 1%;
+	font-weight: 700;
+	color: #ffffff
+}
+
+#profile_text {
+	float: right;
+	color: #ffffff;
+	font-size: 1em;
+}
 
 section {
 	border-top: 1px solid #dedede;
@@ -125,7 +172,8 @@ section:last-child {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
-	color: #cf8a05;
+	font-weight: 600;
+	color: #005995;
 }
 
 .sectionContent h2 {
