@@ -14,18 +14,29 @@
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 </head>
-<body id="top">
-<div id="cv">
+<body>
+<div class="col-container">
+<div class="col-left">
+<div id="cv_left">
 	<div class="mainDetails">
-		<div id="headshot">
-			<img src="naren.jpg" alt="Alan Smith" />
-		</div>
-
 		<div id="name">
 			<h1>Naren Surampudi</h1>
-			<h2>Aspiring Software Developer - Undergrad at BITS Pilani</h2>
+			<br>
+			<h2>Aspiring Software Developer</h2>
 		</div>
-
+		<br>
+		<div id="headshot">
+			<img src="naren.jpg" alt="Naren Surampudi" />
+		</div>
+		<div id="profile">
+			<h2>About Me</h2>
+			<br>
+		</div>
+		<div id="profile_text">
+				I am an undergraduate student pursuing a BE in Electronics and Communication Engineering from BITS Pilani-Hyderabad Campus. My main areas of interest are Machine Learning,
+				Data Science, Data Analytics and Neural Networks. My main motivation is the application of these concepts in the area of software development and ultimately design softwares
+				that will help make a meaningful impact in the everyday lives of users.
+		</div>
 		<div id="contactDetails">
 			<ul>
 				<li>Email: <a href="mailto:nsurampu@gmail.com" target="_blank">nsurampu@gmail.com</a></li>
@@ -34,28 +45,15 @@
 			</ul>
 		</div>
 		<div class="clear"></div>
-	</div>
-
+		</div>
+</div>
+</div>
+<div class="col-right">
+<div id="cv_right">
 	<div id="mainArea">
         <section>
             <a class="back-link" href="/resume.html" download=""><strong>Download CV</strong></a>
         </section>
-
-		<section>
-			<article>
-				<div class="sectionTitle">
-					<h1>Personal Profile</h1>
-				</div>
-
-				<div class="sectionContent">
-					<p>I am an undergraduate student pursuing a BE in Electronics and Communication Engineering from BITS Pilani-Hyderabad Campus. My main areas of interest are Machine Learning,
-					Data Science, Data Analytics and Neural Networks. My main motivation is the application of these concepts in the area of software development and ultimately design softwares
-				that will help make a meaningful impact in the everyday lives of users.</p>
-				</div>
-			</article>
-			<div class="clear"></div>
-		</section>
-
 
 		<section>
 			<div class="sectionTitle">
@@ -78,7 +76,7 @@
 				</article>
 
 				<article>
-					<h2>Intern</h2>
+					<h2>Summer Intern</h2>
 					<p class="subDetails">Tamil Nadu Science and Technology Centre</p>
 					<p>My role here involved the development of an augmented reality based navigation system for the indoor navigation of the Science Centre. This was developed as part
 					of an Android application which also consisted of an educational game. It was built using Unity3D.</p>
@@ -112,9 +110,6 @@
 					<li>Python3</li>
 					<li>Java</li>
 					<li>Matlab/Octave</li>
-					<li>C</li>
-					<li>C++</li>
-					<li>C#</li>
 					<li>R</li>
 					<li>HTML, CSS</li>
 					<li>Javascript</li>
@@ -134,7 +129,6 @@
 					<li>Keras</li>
 					<li>Scikitlearn</li>
 					<li>Pandas</li>
-					<li>Jekyll</li>
 					<li>OpenCV</li>
 					<li>SQL</li>
 					<li>Git, Github</li>
@@ -159,6 +153,11 @@
 					<li>Information Retrieval</li>
 					<li>Neural Networks and Fuzzy Logic</li>
 					<li>Digital Signal Processing</li>
+					<li>Data Mining</li>
+					<li>Network Programming</li>
+					<li>Communication Networks</li>
+					<li>Operating Systems</li>
+					<li>Information Theory & Coding</li>
 					<li>Human Resource Development</li>
 					<li>Principles of Management</li>
 				</ul>
@@ -191,82 +190,89 @@
 
 			<div class="sectionContent">
 				<article>
-					<h2>Human Emotion Detection using Speech AI</h2>
+					<h2>Human Emotion/Event Detection using Audio Analysis</h2>
 					<p class="subDetails">Formal Project</p>
-					<p></p>
+					<p>This project, formally taken up under Dr. Jabez Christopher of BITS Pilani, Hyderabad, involves analysing audio samples in a given audio dataset and subsequently detecting and classifying the events/emotions.</p>
 				</article>
 
-                <article>
-					<h2>Subway AI</h2>
-					<p class="subDetails">Artificial Intelligence</p>
-					<p>An AI for subways, or  MRTS in general, that reroutes and reshedules trains in real time depending on the some situation or changes made by the operator eg: a track breakdown.</p>
+				<article>
+					<h2>Rule Generation Techniques</h2>
+					<p class="subDetails">Data Mining</p>
+					<p>An implementation of the Apiori and FP Tree algorithms. It is built using Python3.</p>
 				</article>
 
-                <article>
-					<h2>Design and Simulation of 3.7GHz Wilkinson Power Divider (2-port and 4-port)</h2>
-					<p class="subDetails">Electromagnetics and Microwave Engineering</p>
-					<p>A simulation built using COMSOL. It simulates a Wilkinson Power Divider with both 2-ports as well as 4-ports.</p>
-				</article>
-
-                <article>
+        <article>
 					<h2>Translation Systems</h2>
 					<p class="subDetails">Information Retrieval</p>
-					<p>An implemetnation of the IBM Models 1 & 2, and the EM algorithm. It is primarily built using Python3 and NLTK.</p>
+					<p>An implementation of the IBM Models 1 & 2, and the EM algorithm. It is primarily built using Python3 and NLTK.</p>
 				</article>
 
-                <article>
+        <article>
 					<h2>Recommender Systems</h2>
 					<p class="subDetails">Information Retrieval</p>
 					<p>Various implementations of recommender systems. Currently has user-user collaborative filtering, SVD and CUR recommender systems. It is primarily built using Python3 and NLTK.</p>
 				</article>
 
-                <article>
+        <article>
 					<h2>Plagiarism Checker</h2>
 					<p class="subDetails">Information Retrieval</p>
 					<p>A simple plagiarism checker that compares, scores and ranks documents according to their plagiarism score after comparing from a given corpus. It is primarily built using Python3 and NLTK.</p>
 				</article>
 
-                <article>
+				<article>
+					<h2>Subway AI</h2>
+					<p class="subDetails">Artificial Intelligence</p>
+					<p>An AI for subways, or  MRTS in general, that reroutes and reshedules trains in real time depending on the some situation or changes made by the operator eg: a track breakdown.</p>
+				</article>
+
+				<article>
+					<h2>Design and Simulation of 3.7GHz Wilkinson Power Divider (2-port and 4-port)</h2>
+					<p class="subDetails">Electromagnetics and Microwave Engineering</p>
+					<p>A simulation built using COMSOL. It simulates a Wilkinson Power Divider with both 2-ports as well as 4-ports.</p>
+				</article>
+
+        <article>
 					<h2>Augmented Reality Navigation System</h2>
 					<p class="subDetails">Tamil Nadu Science and Technology Centre</p>
 					<p>An augmented reality navigation app that was built to help visitors to the Science Centre navigate easily within the premises. It was built using Unity3D.</p>
 				</article>
 
-                <article>
+        <article>
 					<h2>File Encryptor-Decryptor</h2>
 					<p class="subDetails">FOSS@BPHC</p>
 					<p>A simple encryptor-decryptor for text and pdf files. Uses prebuilt libraries.</p>
 				</article>
 
-                <article>
+        <article>
 					<h2>Facebook Crux Chatbot</h2>
 					<p class="subDetails">Crux Programming and Computing Club</p>
 					<p>A small chatbot  built for the Facebook page of Crux, to help students, mainly freshers, get acquainted with the club by providing details according to their queries.</p>
 				</article>
 
-                <article>
+        <article>
 					<h2>Youtube Video Downloader and Audio Extractor</h2>
 					<p class="subDetails">Crux Programming and Computing Club</p>
 					<p>A python script for either donwloading a Youtube video or simply ripping the audio of the video and downloading just the audio.</p>
 				</article>
 
-                <article>
+        <article>
 					<h2>Youtube Playlist Downloader</h2>
 					<p class="subDetails">FOSS@BPHC</p>
 					<p>A python script for downloading an entire playlist of Youtube videos in one sitting.</p>
 				</article>
 
-                <article>
+        <article>
 					<h2>Library Management System</h2>
 					<p class="subDetails">City International School</p>
 					<p>A Java application with SQL back-end. This management system was built for the CBSE Informatic Practices project.</p>
 				</article>
 
-                <article>
+        <article>
 					<h2>Game Hub</h2>
 					<p class="subDetails">The Bishop's School</p>
 					<p>A collection or "hub" of various games accessible from a single window. Includes games like Bull&Cows, Dice Rolling, Empires, etc. Built using Java, for the ICSE Computer Application project.</p>
 				</article>
+
 			</div>
 			<div class="clear"></div>
 		</section>
@@ -303,6 +309,8 @@
         </section>
 
 	</div>
+</div>
+</div>
 </div>
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
