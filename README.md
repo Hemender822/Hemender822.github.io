@@ -1,4 +1,4 @@
-# Particle Jekyll Theme
+# Particle Jekyll Theme CV Website
 
 ![Screenshot](https://github.com/nsurampu/nsurampu.github.io/blob/master/web-screenshot.JPG)
 
