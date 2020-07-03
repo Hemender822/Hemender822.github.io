@@ -1,6 +1,6 @@
 # Particle Jekyll Theme CV Website
 
-![Screenshot](https://github.com/nsurampu/nsurampu.github.io/blob/master/web-screenshot.JPG)
+![Screenshot](https://github.com/Oce11us/Oce11us.github.io/blob/master/webpage_screenshot.PNG)
 
 This is a simple and minimalist portfolio designed using Jekyll. This also features a simple CV with an option to download it.
 
