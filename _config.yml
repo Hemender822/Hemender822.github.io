@@ -1,16 +1,16 @@
 # Site settings
-title: Naren Surampudi
-description: A portfolio of Naren's Work
+title: Mayank Gupta
+description: A portfolio of Mayank's Work
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Naren Surampudi
-user_description: I am an aspiring software developer passionate about Data Science and Machine Learning. My experience lies in the domains of NLP, Time Series Forecasting, Deep Learning and Anomaly Detection to name a few. In my free time, I immerse myself in reading, music-especiaaly Carnatic music, gaming and playing the piano. My dream is to make it big in the field of Data Science and be a leading voice in the domain.
-user_title: Aspiring Software Developer enthusiastic about Data Science and ML
-email: nsurampu@gmail.com
-github_username:  nsurampu
-linkedin: naren-surampudi/
+username: Mayank Gupta
+user_description: A dual degree holding with strong passion for all things Bio related. I am passionate about Social entrepreneurship. In my free time, I immerse myself in reading, music-especiaaly Carnatic music, gaming and playing the tabla.
+user_title: Aspiring Business Analytics
+email: mayankguptaino@gmail.com
+github_username:  Oce11us
+linkedin: mayank-gupta-35bb69125/
 
 
 # Google-analytics
